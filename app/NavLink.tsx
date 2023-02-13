@@ -7,7 +7,11 @@ type Props = {
 
 function NavLink({ catergory, isActive }: Props) {
   return (
-    <Link href={`/news/${catergory}`}>{catergory}</Link>
+    <Link href={`/news/${catergory}`}
+    className=''
+    >
+    {catergory}
+    </Link>
   )
 }
 
