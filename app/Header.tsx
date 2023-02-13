@@ -10,7 +10,7 @@ function Header() {
             <Bars3Icon className='h-8 w-8 cursor-pointer'/>
             <Link href='/' prefetch={false}>
                 <h1 className='font-serif text-4xl text-center'>
-                <span className='underline'>Next JS</span> News</h1>
+                <span className='underline decoration-orange-400'>Next JS</span> News</h1>
             </Link>
             <div className='flex items-center justify-end space-x-2'>
                 {/* DarkModeButton */}
