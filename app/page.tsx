@@ -6,6 +6,8 @@ async function HomePage() {
 // fetch the news data 
 const news: NewsReponse = await fetchNews(categories.join(','));
 
+console.log(news);
+
   return (
     <div>
       {/* NewsList - news props */}
